@@ -1,0 +1,36 @@
+.scroll-container {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+}
+
+* > div {
+  border: 1px solid black;
+}
+
+.container-wrapper{
+  display: flex;
+  align-items: center;  
+}
+
+.cards {
+  display: flex;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+.card {
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
