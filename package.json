@@ -1,0 +1,22 @@
+{
+  "name": "fullstack-adventure",
+  "version": "0.1.0",
+  "description": "Fullstack fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hilman-Azfar/fullstack-adventure.git"
+  },
+  "keywords": [
+    "fun"
+  ],
+  "author": "Hilman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hilman-Azfar/fullstack-adventure/issues"
+  },
+  "homepage": "https://github.com/Hilman-Azfar/fullstack-adventure#readme"
+}
