@@ -2,7 +2,7 @@
   "name": "fullstack-adventure",
   "version": "0.1.0",
   "description": "Fullstack fun",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

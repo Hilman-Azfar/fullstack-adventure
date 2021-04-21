@@ -1,36 +1,85 @@
 .scroll-container {
   display: flex;
   margin: 0 auto;
-  text-align: center;
   overflow: auto;
   scroll-behavior: smooth;
+  text-align: center;
 }
 
 .scroll-page {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   font-size: 5rem;
+  justify-content: center;
 }
 
-* > div {
-  border: 1px solid black;
+main{
+  margin: auto;
+  width: 1344px;
 }
 
 .container-wrapper{
+  align-items: center; 
   display: flex;
-  align-items: center;  
 }
 
 .cards {
   display: flex;
-  scroll-behavior: smooth;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 
 .card {
   display: flex;
-  min-width: 300px;
   flex-direction: column;
   font-size: 1.5rem;
+  min-width: 300px;
+}
+
+nav{
+  align-items: center;
+  display:flex;
+}
+
+nav > input {
+  flex: 0 0 360px;
+  height: 32px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+}
+
+#cart{
+  margin: 0 10px 0 auto;
+}
+
+#login{
+  margin: 0 0 0 10px;
+}
+
+#cuisine{
+  margin: 10px 0 10px 0;
+}
+
+#search{
+  background-color:#f7f7f7;
+  border-radius: 40px;
+  border: none;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.breadcrumbs{
+  margin: 10px 0 10px 0;
+}
+
+#selection{
+  margin: 10px 0 10px 0;
+}
+
+/* FOR DELETION */
+* > div {
+  border: 1px solid black;
 }
