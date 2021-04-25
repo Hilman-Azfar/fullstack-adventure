@@ -1,9 +1,30 @@
+main{
+  margin: auto;
+  width: 100vw;
+}
+header, section {
+  width: 1334px;
+  margin: 0 auto;
+}
+
+
+.container-wrapper{
+  align-items: center; 
+  display: flex;
+}
+
 .scroll-container {
   display: flex;
   margin: 0 auto;
   overflow: auto;
   scroll-behavior: smooth;
   text-align: center;
+}
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
 }
 
 .scroll-page {
@@ -13,14 +34,15 @@
   justify-content: center;
 }
 
-main{
-  margin: auto;
-  width: 1344px;
+.breadcrumbs{
+  margin: 48px 0 10px 0;
 }
-
-.container-wrapper{
-  align-items: center; 
-  display: flex;
+h2{
+margin: 20px 0 20px 0;
+font-size: 2.57142857rem;
+line-height: 1.33333333;
+font-weight: 500;
+margin-bottom: 48px;
 }
 
 .cards {
@@ -29,16 +51,31 @@ main{
   scroll-behavior: smooth;
 }
 
+.cards:last-child {
+  margin-right: 0;
+}
+
 .card {
   display: flex;
+  flex: 1;
   flex-direction: column;
   font-size: 1.5rem;
   min-width: 300px;
+  margin-right: 50px;
 }
 
-nav{
+.food-pic {
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+
+nav {
   align-items: center;
   display:flex;
+  padding: 40px 0px;
 }
 
 nav > input {
@@ -49,19 +86,19 @@ nav > input {
   padding: 10px;
 }
 
-#cart{
+#cart {
   margin: 0 10px 0 auto;
 }
 
-#login{
+#login {
   margin: 0 0 0 10px;
 }
 
-#cuisine{
+#cuisine {
   margin: 10px 0 10px 0;
 }
 
-#search{
+#search {
   background-color:#f7f7f7;
   border-radius: 40px;
   border: none;
@@ -71,15 +108,14 @@ nav > input {
   width: 100%;
 }
 
-.breadcrumbs{
+#divider {
   margin: 10px 0 10px 0;
+  height: 8px;
+  
 }
 
-#selection{
-  margin: 10px 0 10px 0;
-}
-
-/* FOR DELETION */
+/* FOR DELETION
 * > div {
   border: 1px solid black;
 }
+*/

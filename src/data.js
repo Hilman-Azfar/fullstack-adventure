@@ -1,5 +1,5 @@
-const Categories = ["$0 delivery", "near me", "same prices in-store", "whole cakes", "islandwide delivery", "michelin-recommended"];
-const Popular = [
+const categories = ["$0 delivery", "near me", "same prices in-store", "whole cakes", "islandwide delivery", "michelin-recommended"];
+const popular = [
     {
         title: "macdonalds",
         tags: ["chicken", "fast food", "halal", "burger"],
@@ -31,7 +31,7 @@ const Popular = [
 ]
 
 export const stores = {
-    Categories,
-    Popular
+    categories,
+    popular
 }
 
