@@ -28,10 +28,17 @@
         <!-- Recommendations -->
         <section id="cusine">
             <div class="container-wrapper">
-                <button>&lt;</button>
+                <button id="scrollerL">&lt;</button>
                 <div class="scroll-container">
-                    <div class="scroll-page" id="page-1">Muslim</div>
-                    <div class="scroll-page" id="page-2">Western</div>
+                    <a href="same.html">
+                        <div class="scroll-page" id="page-1">Muslim</div>
+                    </a>
+
+                    <a href="cards/nested.html">
+                        <div class="scroll-page" id="page-2">
+                            Western
+                        </div>
+                    </a>
                     <div class="scroll-page" id="page-3">Chinese</div>
                     <div class="scroll-page" id="page-4">japanese</div>
                     <div class="scroll-page" id="page-5">japanese</div>
@@ -42,19 +49,21 @@
                     <div class="scroll-page" id="page-10">japanese</div>
                     <div class="scroll-page" id="page-11">japanese</div>
                 </div>
-                <button>&gt;</button>
+                <button id="scrollerR">&gt;</button>
             </div>
         </section>
 
 
-        <hr id="divider"></hr>
+        <hr id="divider">
+        </hr>
 
         <!-- Shops -->
         <section id="popular-shops">
             <div class="breadcrumbs">
                 <p>Home > Restaurant</p>
-                <h2>Popular Near You</h2>
             </div>
+            <h2>Popular Near You</h2>
+
 
             <div class="container-wrapper">
                 <button>&lt;</button>
@@ -68,6 +77,7 @@
     <!-- Scripts -->
     <script type="module" src="data.js"></script>
     <script type="module" src="shops.js"></script>
+    <script type="text/javascript" src="scroller.js"></script>
 </body>
 
 </html>
