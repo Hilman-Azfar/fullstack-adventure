@@ -21,3 +21,19 @@
     - [] User routes
 
 [] Mobile Responsiveness
+
+
+File Directory (Client src)
+-src 
+    -configs
+    -components
+        -button
+            -component.js
+            -styles.css
+        -banner
+            -component.js
+            -styles.css
+        index.js
+    -pages
+    -index.js
+    -utils

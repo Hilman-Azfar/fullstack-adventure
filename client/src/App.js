@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Nav from "./components/nav/nav.js"
+import Search from "./components/search/search.js"
 
 function App() {
-
   return (
-    <>
-      <Nav></Nav>
-      <Carousel></Carousel>
-      <Carousel></Carousel>
-    </>
+    <main>
+
+      <header>
+
+      {/* Navigation */}
+      <Nav/>
+
+      {/* Search */}
+      <Search />
+
+      </header>
+
+      {/* Recommendations */}
+    
+    {/*Shops*/}
+    
+    </main>
   )
-}
-
-function Nav () {
-
-}
-
-function Carousel () {
-
 }
 
 export default App;
